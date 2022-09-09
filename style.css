@@ -18,6 +18,22 @@ body {
 
 }
 
+.navbar-brand {
+    color: white;
+    font-weight: 600;
+}
+
+.navbar-list {
+    margin: 15px 5px 15px 800px;
+    
+}
+.nav-link {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+
 .header__Content {
     display: flex;
     justify-content: space-between;
@@ -62,7 +78,7 @@ a {
 
 
 .section1 {
-        background-image: url("../Glifos/assets/header\ image.jpg");
+        background-image: url("./assets/header\ image.jpg");
         
         max-width: 1500px;
         height: 300px;
@@ -77,12 +93,13 @@ a {
     font-weight: bold;
     padding-top: 50px; 
     font-size: 50px;  
+    color: #ff0890
 }
 
 .section1__p {
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     padding-top: 50px; 
     font-size: 30px;
     
@@ -146,8 +163,9 @@ a {
 
     .card__button:hover {
 
-font-size: 30px;
-background-color: rgb(148, 26, 101);
+font-size: 20px;
+background-color: rgba(39, 39, 39, 50%);
+color: #ff0890;
 
 
 
